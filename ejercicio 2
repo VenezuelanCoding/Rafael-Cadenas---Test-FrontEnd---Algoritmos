@@ -1,0 +1,17 @@
+let a = 10;
+let esta = false;
+let lista =  [ 1, 11, "a", "b", 123]
+
+for(i = 0; i < lista.length && !esta; i++){
+    if(!isNaN(lista[i]) && lista[i] == 10){
+        esta = true;
+    }
+}
+
+if(esta){
+    console.log("El numero " + a + " esta en el array");
+} else {
+    console.log("El numero " + a + " NO esta en el array");
+}
+
+//El codigo fue probado en un snippet de chrome
