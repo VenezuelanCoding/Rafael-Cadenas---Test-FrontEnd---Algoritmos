@@ -1,0 +1,18 @@
+let original =  ["a", 10, "b", "hola", 122, 15];
+    let letras = [];
+    let numeros = [];
+    let mayor = Number.MIN_VALUE;
+
+    for(i = 0; i < original.length; i++){
+        if(isNaN(original[i])){
+            letras.push(original[i]);
+        } else {
+            numeros.push(original[i]);
+            if(original[i]>mayor){
+                mayor = original[i];
+            }
+        }
+    }
+    console.log(letras);
+    console.log(numeros);
+    console.log(mayor);
