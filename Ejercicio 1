@@ -1,4 +1,4 @@
-let original =  ["a", 10, "b", "hola", 122, 15];
+    let original =  ["a", 10, "b", "hola", 122, 15];
     let letras = [];
     let numeros = [];
     let mayor = Number.MIN_VALUE;
@@ -16,3 +16,4 @@ let original =  ["a", 10, "b", "hola", 122, 15];
     console.log(letras);
     console.log(numeros);
     console.log(mayor);
+//El codigo fue probado como snippet de chrome
