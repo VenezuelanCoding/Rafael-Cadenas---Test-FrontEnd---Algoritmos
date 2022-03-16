@@ -14,4 +14,4 @@ if(esta){
     console.log("El numero " + a + " NO esta en el array");
 }
 
-//El codigo fue probado en un snippet de chrome
+//El codigo fue probado en un snippet de chrome y git es xd
