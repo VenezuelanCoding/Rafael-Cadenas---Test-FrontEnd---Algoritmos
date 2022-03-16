@@ -16,4 +16,5 @@
     console.log(letras);
     console.log(numeros);
     console.log(mayor);
+    console.log("hola");
 //El codigo fue probado como snippet de chrome
